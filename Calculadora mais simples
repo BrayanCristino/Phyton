@@ -1,0 +1,4 @@
+x = int(input("insira a taboada desejada"))
+for y in range(0,10,1):
+    tabuada = y * x
+    print(x," x ",y,"=", tabuada)
