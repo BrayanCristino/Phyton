@@ -1,0 +1,13 @@
+n = int(input("insira o valor de n"))
+ultimo = 1
+penultimo = 1
+
+#fibonacci pega o último termo + o penúltimo para se obter o sucessor
+#se inicia com 1,1
+#n = enésimo termo
+
+for x in range(2,n,1):
+    termo = ultimo + penultimo
+    penultimo = ultimo
+    ultimo = termo
+    print(termo)
