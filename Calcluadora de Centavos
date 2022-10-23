@@ -1,0 +1,26 @@
+ValorCentavos = int(input("insira o valor em centavos"))
+
+MoedasUmReal = ValorCentavos // 100
+RestoMoedasReal = ValorCentavos % 100
+
+MoedasCinquentaCentavos = RestoMoedasReal // 50
+RestoCinquentaCentavos = RestoMoedasReal % 50
+
+MoedasVinte_CincoCentavos = RestoCinquentaCentavos // 25
+RestoVinte_CincoCentavos = RestoCinquentaCentavos % 25
+
+MoedasDezCentavos = RestoVinte_CincoCentavos  // 10
+RestoDezCentavos = RestoVinte_CincoCentavos  % 10
+
+MoedasCincoCentavos = RestoDezCentavos // 5
+RestoCincoCentavos = RestoDezCentavos % 5
+
+MoedasUmCentavo = RestoCincoCentavos // 1
+RestoUmCentavo = RestoCincoCentavos % 1
+
+print("valor em 100 centavos",MoedasUmReal)
+print("valor em 50 centavos",MoedasCinquentaCentavos)
+print("valor em 25 centavos",MoedasVinte_CincoCentavos)
+print("valor em 10 centavos",MoedasDezCentavos)
+print("valor em 5 centavos",MoedasCincoCentavos)
+print("valor em 1 centavos",MoedasUmCentavo)
