@@ -1,0 +1,12 @@
+nota1 = float(input('digite sua nota:'))
+nota2 = float(input('digite sua nota'))
+media = (nota1 + nota2) / 2
+
+if 6.0 <= media:
+    print('aluno aprovado')
+
+else:
+    print('aluno reprovado')
+
+# a média equivale a 6
+# a média sempre sera dividida pelo número de variáveis
